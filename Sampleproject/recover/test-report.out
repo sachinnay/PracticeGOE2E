@@ -1,0 +1,60 @@
+{"Time":"2019-12-18T10:51:34.59967901+05:30","Action":"run","Package":"Sampleproject/recover","Test":"TestHello"}
+{"Time":"2019-12-18T10:51:34.599800848+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestHello","Output":"=== RUN   TestHello\n"}
+{"Time":"2019-12-18T10:51:34.599814369+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestHello","Output":"--- PASS: TestHello (0.00s)\n"}
+{"Time":"2019-12-18T10:51:34.599825107+05:30","Action":"pass","Package":"Sampleproject/recover","Test":"TestHello","Elapsed":0}
+{"Time":"2019-12-18T10:51:34.599832221+05:30","Action":"run","Package":"Sampleproject/recover","Test":"TestFuncThatPanics"}
+{"Time":"2019-12-18T10:51:34.599836801+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestFuncThatPanics","Output":"=== RUN   TestFuncThatPanics\n"}
+{"Time":"2019-12-18T10:51:34.599845141+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestFuncThatPanics","Output":"--- PASS: TestFuncThatPanics (0.00s)\n"}
+{"Time":"2019-12-18T10:51:34.599851333+05:30","Action":"pass","Package":"Sampleproject/recover","Test":"TestFuncThatPanics","Elapsed":0}
+{"Time":"2019-12-18T10:51:34.599856696+05:30","Action":"run","Package":"Sampleproject/recover","Test":"TestPanicDemo"}
+{"Time":"2019-12-18T10:51:34.599862051+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestPanicDemo","Output":"=== RUN   TestPanicDemo\n"}
+{"Time":"2019-12-18T10:51:34.599868535+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestPanicDemo","Output":"--- PASS: TestPanicDemo (0.00s)\n"}
+{"Time":"2019-12-18T10:51:34.599873971+05:30","Action":"pass","Package":"Sampleproject/recover","Test":"TestPanicDemo","Elapsed":0}
+{"Time":"2019-12-18T10:51:34.599878508+05:30","Action":"run","Package":"Sampleproject/recover","Test":"TestPanicAfterDemo"}
+{"Time":"2019-12-18T10:51:34.599884424+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestPanicAfterDemo","Output":"=== RUN   TestPanicAfterDemo\n"}
+{"Time":"2019-12-18T10:51:34.599891581+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestPanicAfterDemo","Output":"--- PASS: TestPanicAfterDemo (0.00s)\n"}
+{"Time":"2019-12-18T10:51:34.599897454+05:30","Action":"pass","Package":"Sampleproject/recover","Test":"TestPanicAfterDemo","Elapsed":0}
+{"Time":"2019-12-18T10:51:34.599902376+05:30","Action":"run","Package":"Sampleproject/recover","Test":"Test_recoverMw"}
+{"Time":"2019-12-18T10:51:34.599907451+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"=== RUN   Test_recoverMw\n"}
+{"Time":"2019-12-18T10:51:34.599913617+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"2019/12/18 10:51:34 Oh no!\n"}
+{"Time":"2019-12-18T10:51:34.59991921+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"2019/12/18 10:51:34 goroutine 26 [running]:\n"}
+{"Time":"2019-12-18T10:51:34.599925708+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"runtime/debug.Stack(0xc000054d18, 0x1, 0x1)\n"}
+{"Time":"2019-12-18T10:51:34.599931209+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/usr/local/go/src/runtime/debug/stack.go:24 +0x9d\n"}
+{"Time":"2019-12-18T10:51:34.599937251+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"Sampleproject/recover.recoverMw.func1.1(0xaacc00, 0xc0000a4c00)\n"}
+{"Time":"2019-12-18T10:51:34.599945087+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/home/sachin/go/src/Sampleproject/recover/main.go:67 +0xb7\n"}
+{"Time":"2019-12-18T10:51:34.599951596+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"panic(0x8b4c80, 0xa95cb0)\n"}
+{"Time":"2019-12-18T10:51:34.599956995+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/usr/local/go/src/runtime/panic.go:522 +0x1b5\n"}
+{"Time":"2019-12-18T10:51:34.599963335+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"Sampleproject/recover.funcThatPanics(...)\n"}
+{"Time":"2019-12-18T10:51:34.599970386+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/home/sachin/go/src/Sampleproject/recover/main.go:91\n"}
+{"Time":"2019-12-18T10:51:34.599976241+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"Sampleproject/recover.panicDemo(0xaacc00, 0xc0000a4c00, 0xc0001ed600)\n"}
+{"Time":"2019-12-18T10:51:34.59998163+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/home/sachin/go/src/Sampleproject/recover/main.go:80 +0x4e\n"}
+{"Time":"2019-12-18T10:51:34.599987574+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"net/http.HandlerFunc.ServeHTTP(0x9bdd28, 0xaacc00, 0xc0000a4c00, 0xc0001ed600)\n"}
+{"Time":"2019-12-18T10:51:34.59999364+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/usr/local/go/src/net/http/server.go:1995 +0x44\n"}
+{"Time":"2019-12-18T10:51:34.599999924+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"Sampleproject/recover.recoverMw.func1(0xaacc00, 0xc0000a4c00, 0xc0001ed600)\n"}
+{"Time":"2019-12-18T10:51:34.600005304+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/home/sachin/go/src/Sampleproject/recover/main.go:74 +0xa9\n"}
+{"Time":"2019-12-18T10:51:34.600011564+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"net/http.HandlerFunc.ServeHTTP(0xc0003354e0, 0xaacc00, 0xc0000a4c00, 0xc0001ed600)\n"}
+{"Time":"2019-12-18T10:51:34.600017093+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/usr/local/go/src/net/http/server.go:1995 +0x44\n"}
+{"Time":"2019-12-18T10:51:34.600023271+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"Sampleproject/recover.executeRequest(0x932944, 0x3, 0x936bbf, 0x6, 0xaa4d40, 0xc0003354e0, 0x5df9b75e, 0x23beed9f, 0x184340210a59d)\n"}
+{"Time":"2019-12-18T10:51:34.600031474+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/home/sachin/go/src/Sampleproject/recover/main_test.go:90 +0x137\n"}
+{"Time":"2019-12-18T10:51:34.600038287+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"Sampleproject/recover.Test_recoverMw(0xc0001ed200)\n"}
+{"Time":"2019-12-18T10:51:34.600043771+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/home/sachin/go/src/Sampleproject/recover/main_test.go:80 +0x7d\n"}
+{"Time":"2019-12-18T10:51:34.600049164+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"testing.tRunner(0xc0001ed200, 0x9bdd10)\n"}
+{"Time":"2019-12-18T10:51:34.600054922+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/usr/local/go/src/testing/testing.go:865 +0xc0\n"}
+{"Time":"2019-12-18T10:51:34.600061305+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"created by testing.(*T).Run\n"}
+{"Time":"2019-12-18T10:51:34.600066552+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\t/usr/local/go/src/testing/testing.go:916 +0x35a\n"}
+{"Time":"2019-12-18T10:51:34.600072785+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"\n"}
+{"Time":"2019-12-18T10:51:34.600167913+05:30","Action":"output","Package":"Sampleproject/recover","Test":"Test_recoverMw","Output":"--- PASS: Test_recoverMw (0.00s)\n"}
+{"Time":"2019-12-18T10:51:34.600180628+05:30","Action":"pass","Package":"Sampleproject/recover","Test":"Test_recoverMw","Elapsed":0}
+{"Time":"2019-12-18T10:51:34.600187356+05:30","Action":"run","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerNeg"}
+{"Time":"2019-12-18T10:51:34.600193071+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerNeg","Output":"=== RUN   TestSourceCodeHandlerNeg\n"}
+{"Time":"2019-12-18T10:51:34.600200465+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerNeg","Output":"--- PASS: TestSourceCodeHandlerNeg (0.00s)\n"}
+{"Time":"2019-12-18T10:51:34.600207026+05:30","Action":"pass","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerNeg","Elapsed":0}
+{"Time":"2019-12-18T10:51:34.60021288+05:30","Action":"run","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerCopyFailed"}
+{"Time":"2019-12-18T10:51:34.600217941+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerCopyFailed","Output":"=== RUN   TestSourceCodeHandlerCopyFailed\n"}
+{"Time":"2019-12-18T10:51:34.600229401+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerCopyFailed","Output":"--- FAIL: TestSourceCodeHandlerCopyFailed (0.00s)\n"}
+{"Time":"2019-12-18T10:51:34.600236241+05:30","Action":"output","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerCopyFailed","Output":"    main_test.go:141: not expected error in panic 500\n"}
+{"Time":"2019-12-18T10:51:34.600242163+05:30","Action":"fail","Package":"Sampleproject/recover","Test":"TestSourceCodeHandlerCopyFailed","Elapsed":0}
+{"Time":"2019-12-18T10:51:34.600248099+05:30","Action":"output","Package":"Sampleproject/recover","Output":"FAIL\n"}
+{"Time":"2019-12-18T10:51:34.600353573+05:30","Action":"output","Package":"Sampleproject/recover","Output":"coverage: 58.8% of statements\n"}
+{"Time":"2019-12-18T10:51:34.601344611+05:30","Action":"output","Package":"Sampleproject/recover","Output":"FAIL\tSampleproject/recover\t0.012s\n"}
+{"Time":"2019-12-18T10:51:34.601357156+05:30","Action":"fail","Package":"Sampleproject/recover","Elapsed":0.012}
