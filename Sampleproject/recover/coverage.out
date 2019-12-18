@@ -1,0 +1,21 @@
+mode: set
+Sampleproject/recover/main.go:19.13,21.16 2 0
+Sampleproject/recover/main.go:21.16,23.3 1 0
+Sampleproject/recover/main.go:27.32,34.2 6 0
+Sampleproject/recover/main.go:37.64,42.16 5 1
+Sampleproject/recover/main.go:46.2,49.14 4 0
+Sampleproject/recover/main.go:52.2,58.38 7 0
+Sampleproject/recover/main.go:42.16,45.3 2 1
+Sampleproject/recover/main.go:49.14,51.3 1 0
+Sampleproject/recover/main.go:62.51,63.54 1 1
+Sampleproject/recover/main.go:63.54,64.16 1 1
+Sampleproject/recover/main.go:74.3,74.22 1 1
+Sampleproject/recover/main.go:64.16,65.36 1 1
+Sampleproject/recover/main.go:65.36,71.5 5 1
+Sampleproject/recover/main.go:79.56,81.2 1 1
+Sampleproject/recover/main.go:84.61,87.2 2 1
+Sampleproject/recover/main.go:90.23,91.17 1 1
+Sampleproject/recover/main.go:95.52,97.2 1 1
+Sampleproject/recover/main.go:100.37,105.29 4 1
+Sampleproject/recover/main.go:111.2,111.14 1 1
+Sampleproject/recover/main.go:105.29,110.3 4 1
